@@ -36,6 +36,7 @@ main#main_content{
                 }
             }
             p{
+                color: $text_brown;
                 margin: 0 10px;
             }
         }
@@ -50,6 +51,91 @@ main#main_content{
             }
         }
     }
+    .section_1{
+        background-color: $bg_main;
+        padding: 60px 0;
+        .section_1_before{
+            border-bottom: 2px solid #DEC6B1;
+            .title{
+                width: 45%;
+                margin: 0 auto;
+                h2{
+                    color: $text_brown;
+                    font-size: 30px;
+                    text-align: center;
+                    line-height: 1.6;
+                    margin-bottom: 70px;
+                }
+            }
+            .row{
+                @include my-display-flex;
+                align-items: center;
+                .col_3{
+                    text-align: center;
+                    padding: 15px 0;
+                    img{
+                        height: 150px;
+                    }
+                    p{
+                        color: $text_brown;
+                        padding-top: 30px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .col_3.image_center{
+                padding: 100px 0;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .section_1_after{
+            .title{
+                width: 45%;
+                margin: 0 auto;
+                h2{
+                    color: $text_brown;
+                    font-size: 30px;
+                    text-align: center;
+                    line-height: 1.6;
+                    margin-bottom: 70px;
+                    padding-top: 100px;
+                }
+            }
+            .row{
+                @include my-display-flex;
+                align-items: center;
+                .col_3{
+                    text-align: center;
+                    padding: 15px 0;
+                    img{
+                        height: 150px;
+                    }
+                    p{
+                        color: $text_brown;
+                        padding-top: 30px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .col_3.image_center{
+                padding: 100px 0;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                }
+            }
+            h2.title_bottom{
+                color: $text_brown;
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+
+    }
+    
 }
 
 
@@ -74,6 +160,11 @@ main#main_content{
             .sing_up{
                 justify-content: center;
     
+            }
+        }
+        .section_1{
+            .row{
+                flex-direction: column;
             }
         }
     }
@@ -101,6 +192,11 @@ main#main_content{
             .sing_up{
                 justify-content: center;
     
+            }
+        }
+        .section_1{
+            .row{
+                flex-direction: column;
             }
         }
     }
