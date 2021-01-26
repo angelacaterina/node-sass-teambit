@@ -1,0 +1,18 @@
+// simili come concetto alle variabili, ma includono più di una regola e possono variabilizzare un vero e proprio selettore
+@mixin my-display-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin btn {
+
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    border: 1px solid $text_white;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
