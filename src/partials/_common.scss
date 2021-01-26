@@ -8,8 +8,50 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 .container{
     width: 85%;
     margin: 0 auto;
+}
+
+.col_2{
+    width: calc(100% / 2);
+}
+.col_3{
+    width: calc(100% / 3);
+}
+
+/**************
+* MEDIA QUERY
+***************/
+/* screen iphone */
+@media screen and (max-width: 550px){
+    .container{
+        width: 100%;
+    }
+    .col_2, .col_3{
+        width: 100%;
+        text-align: center;
+        .container_col{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+  
+/* sreen tablet */
+@media screen and (min-width: 551px) and (max-width: 998px){
+    .container{
+        width: 100%;
+    }
+    .col_2, .col_3{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        .container_col{
+            width: 85%;
+            margin: 0 auto;
+        }
+    }
 }

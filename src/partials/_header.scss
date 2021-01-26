@@ -44,9 +44,6 @@ header#site_header{
 ***************/
 /* screen iphone */
 @media screen and (max-width: 550px){
-    .container{
-        width: 100%;
-    }
     header#site_header{
         nav{
             .link_menu{
@@ -72,9 +69,6 @@ header#site_header{
   
 /* sreen tablet */
 @media screen and (min-width: 551px) and (max-width: 998px){
-    .container{
-        width: 100%;
-    }
     header#site_header{
         nav{
             .link_menu{

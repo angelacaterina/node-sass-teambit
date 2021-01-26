@@ -1,0 +1,109 @@
+main#main_content{
+    .jumbotron{
+        padding: 60px 0;
+        @include my-display-flex;
+        .title_paragraph{
+            h1{
+                color: $text_brown;
+                font-size: $text_h1;
+                line-height: 1.5;
+            }
+            p{
+                color: $text_brown;
+                font-size: $text_p;
+                line-height: 1.5;
+                margin-top: 20px;
+                margin-bottom: 60px;
+            }
+        }
+        .sing_up{
+            color: $text_brown;
+            margin-bottom: 20px;
+            @include my-display-flex;
+            align-items: center;
+            a.button_sing_up{
+                color: white;
+                text-decoration: none;
+                padding: 8px 15px;
+                background-color: $bg_link;
+                border-radius: 6px;
+                border: 1px solid $bg_link;
+                @include my-display-flex;
+                align-items: center;
+                img{
+                    width: 20px;
+                    margin-right: 5px;
+                }
+            }
+            p{
+                margin: 0 10px;
+            }
+        }
+        a.email_sing_up{
+            color: $text_brown;
+            text-decoration: none;
+        }
+        .col_2.bg_image{
+            img{
+                width: 100%;
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    main#main_content{
+        .jumbotron{
+            flex-direction: column;
+            .title_paragraph{
+                h1{
+                    color: $text_brown;
+                    font-size: 46px;
+                    line-height: 1.5;
+                }
+                p{
+                    color: $text_brown;
+                    font-size: 21px;
+                    line-height: 1.5;
+                    margin-top: 20px;
+                    margin-bottom: 60px;
+                }
+            }
+            .sing_up{
+                justify-content: center;
+    
+            }
+        }
+    }
+}
+  
+/* sreen tablet */
+@media screen and (min-width: 551px) and (max-width: 998px){
+    main#main_content{
+        .jumbotron{
+            flex-direction: column;
+            .title_paragraph{
+                h1{
+                    color: $text_brown;
+                    font-size: 50px;
+                    line-height: 1.5;
+                }
+                p{
+                    color: $text_brown;
+                    font-size: 23px;
+                    line-height: 1.5;
+                    margin-top: 20px;
+                    margin-bottom: 60px;
+                }
+            }
+            .sing_up{
+                justify-content: center;
+    
+            }
+        }
+    }
+}
+
+
