@@ -160,9 +160,9 @@ main#main_content .jumbotron .sing_up a.button_sing_up {
   color: white;
   text-decoration: none;
   padding: 8px 15px;
-  background-color: #2C4792;
+  background-color: #922C2C;
   border-radius: 6px;
-  border: 1px solid #2C4792;
+  border: 1px solid #922C2C;
   display: flex;
   align-items: center;
 }
@@ -182,7 +182,7 @@ main#main_content .jumbotron .col_2.bg_image img {
   width: 100%;
 }
 main#main_content .section_1 {
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
   padding: 60px 0;
 }
 main#main_content .section_1 .section_1_before {
@@ -330,7 +330,7 @@ main#main_content .section_2 .section_2_left .col_2 .section_2_images img {
 }
 main#main_content .section_3 {
   padding: 70px 0;
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
 }
 main#main_content .section_3 .col_2 {
   margin: 0 auto;
@@ -387,9 +387,9 @@ main#main_content .section_3 .col_2 .sing_up a.button_sing_up {
   color: white;
   text-decoration: none;
   padding: 8px 15px;
-  background-color: #2C4792;
+  background-color: #922C2C;
   border-radius: 6px;
-  border: 1px solid #2C4792;
+  border: 1px solid #922C2C;
   display: flex;
   align-items: center;
 }
